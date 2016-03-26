@@ -31,7 +31,7 @@ if response == 'reverse':
             print(time_standard)
     webbrowser.open('https://www.youtube.com/watch?v=PowGPSdAxTI')
     time.sleep(180)
-    reverse_file.reverse_file('Mess this Up')
+    reverse_file.reverse_file('Fake Home Directory')
 
 if response == 'scramble':
     alarm_time = input('In how long? (xxx hours or xxx minutes or'
@@ -53,7 +53,7 @@ if response == 'scramble':
             print(time_standard)
     webbrowser.open('https://www.youtube.com/watch?v=PowGPSdAxTI')
     time.sleep(180)
-    scramble_file.scramble_file('Mess this Up')
+    scramble_file.scramble_file('Fake Home Directory')
 
 if response == 'delete':
     alarm_time = input('In how long? (xxx hours or xxx minutes or'
@@ -75,7 +75,7 @@ if response == 'delete':
             print(time_standard)
     webbrowser.open('https://www.youtube.com/watch?v=PowGPSdAxTI')
     time.sleep(180)
-    delete_file.delete_file('Mess this Up')
+    delete_file.delete_file('Fake Home Directory')
 
 if response == 'youtube':
     alarm_time = input('In how long? (xxx hours or xxx minutes or'
@@ -121,7 +121,7 @@ if response == 'mess me up':
             print(time_standard)
     webbrowser.open('https://www.youtube.com/watch?v=PowGPSdAxTI')
     time.sleep(180)
-    delete_file.delete_file('Mess this Up')
+    delete_file.delete_file('Fake Home Directory')
     while 1:
         time.sleep(0.05)
         open_youtube.open_youtube()
