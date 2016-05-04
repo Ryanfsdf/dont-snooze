@@ -13,7 +13,7 @@ response = input('Commands:\'reverse\' / \'youtube\' / \'scramble\' / '
                  '\'delete\' / \'mess me up\': ')
 if response == 'reverse':
     alarm_time = input('In how long? (xxx hours or xxx minutes or '
-                       'xxx seconds:')
+                       'xxx seconds): ')
     if alarm_time.split(' ')[1] == 'hours':
         for i in range(int(3600 * float(alarm_time.split(' ')[0])), 0, -1):
             time.sleep(1)
@@ -35,7 +35,7 @@ if response == 'reverse':
 
 if response == 'scramble':
     alarm_time = input('In how long? (xxx hours or xxx minutes or'
-                       ' xxx seconds:')
+                       ' xxx seconds): ')
     if alarm_time.split(' ')[1] == 'hours':
         for i in range(int(3600 * float(alarm_time.split(' ')[0])), 0, -1):
             time.sleep(1)
@@ -57,7 +57,7 @@ if response == 'scramble':
 
 if response == 'delete':
     alarm_time = input('In how long? (xxx hours or xxx minutes or'
-                       ' xxx seconds:')
+                       ' xxx seconds): ')
     if alarm_time.split(' ')[1] == 'hours':
         for i in range(int(3600 * float(alarm_time.split(' ')[0])), 0, -1):
             time.sleep(1)
@@ -79,7 +79,7 @@ if response == 'delete':
 
 if response == 'youtube':
     alarm_time = input('In how long? (xxx hours or xxx minutes or'
-                       ' xxx seconds:')
+                       ' xxx seconds): ')
     if alarm_time.split(' ')[1] == 'hours':
         for i in range(int(3600 * float(alarm_time.split(' ')[0])), 0, -1):
             time.sleep(1)
@@ -103,7 +103,7 @@ if response == 'youtube':
 
 if response == 'mess me up':
     alarm_time = input('In how long? (xxx hours or xxx minutes or'
-                       ' xxx seconds:')
+                       ' xxx seconds): ')
     if alarm_time.split(' ')[1] == 'hours':
         for i in range(int(3600 * float(alarm_time.split(' ')[0])), 0, -1):
             time.sleep(1)
