@@ -1,7 +1,7 @@
-# TerribleAlarm
-Alarm made for Terrible Hacks Hackathon 2016
+# DestructiveAlarm
+Alarm clock made for Terrible Hacks Hackathon 2016
 
-Terrible Alarm is an alarm like no other. Made for Terrible Hacks 2016, it is meant to be as "terrible" as possible,
+DestructiveAlarm is an alarm like no other. Made for Terrible Hacks 2016, it is meant to be as "terrible" as possible,
 with no practical use. It has 5 main functions as an alarm.
   * scramble - which scrambles all the file names in your home directory
   * reverse - which reverses all the file names in your home directory
